@@ -40,3 +40,9 @@ site
 
 # commit file ignore
 app/commit.json
+
+# Exclude worker scripts from Next.js processing
+/workers/**/*.js
+/src/workers/**/*.js
+
+
